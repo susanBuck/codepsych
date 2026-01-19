@@ -1,13 +1,26 @@
 #' Stroop Task Reaction Time Data
 #'
-#' Reaction time data from a Stroop-style task used in the
-#' Programming for Psychology course.
+#' Simulated reaction time data from a Stroop-style task, intended for
+#' demonstration and teaching purposes in introductory psychology
+#' and data analysis courses.
 #'
-#' @format A data frame with 60 rows and 3 variables:
+#' Each participant completed multiple trials in both congruent and
+#' incongruent conditions, responding to the ink color of color words
+#' while ignoring the word meaning.
+#'
+#' @format A data frame with 10,800 rows and 7 variables:
 #' \describe{
-#'   \item{id}{Participant ID}
-#'   \item{condition}{Experimental condition}
-#'   \item{rt_ms}{Reaction time in milliseconds}
+#'   \item{participant_id}{Unique participant identifier}
+#'   \item{trial}{Trial number within participant}
+#'   \item{condition}{Trial condition: \code{"congruent"} or \code{"incongruent"}}
+#'   \item{word}{Color word displayed (e.g., \code{"red"}, \code{"green"}, \code{"blue"})}
+#'   \item{color}{Ink color of the word displayed}
+#'   \item{response}{Key pressed by the participant: \code{"r"}, \code{"g"}, or \code{"b"}}
+#'   \item{response_time}{Response time in milliseconds}
 #' }
-#' @source CSV file provided with course materials
-"stroop"
+#'
+#' @source Simulated data distributed with course materials
+#'
+#' @docType data
+#' @name stroop
+NULL

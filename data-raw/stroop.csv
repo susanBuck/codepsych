@@ -1,4 +1,4 @@
-participant_id,trial,condition,word,color,response,reaction_time
+participant_id,trial,condition,word,color,response,response_time
 1,1,congruent,red,red,b,933.6277622971892
 1,2,congruent,red,red,y,734.4963197335094
 1,3,incongruent,blue,red,g,896.9710286450861
