@@ -1,6 +1,6 @@
 Package: codepsych
 Title: CodePsych
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     person("Susan", "Buck", , "susan@susanbuck.net", role = c("aut", "cre"))
 Description: Example Psychology data sets for learning R.
